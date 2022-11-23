@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="es_ES">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IHNG</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+      .card {
+        margin-top: 20px;
+        justify-content: space-evenly;
+        transition: transform .2s;
+      }
+
+      .card:hover:hover {
+        transform: scale(1.05);
+      }
+
+      .cartas {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      
+      body{
+        background-color: rgb(61, 59, 59);
+      }
+
+      .foot {
+        justify-content: space-between;
+      }
+
+      h6 {
+        font-size: smaller;
+      }
+
+      .nombre {
+        color: #fff;
+        align-items: center;
+        margin-right: 5px;
+        margin-top: 7px;
+        font-family: georgia;
+      }
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      a:hover {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Esta es la barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nombre">
+              <a href="index.html"><H5>IHNG</H5></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sexting.html">Sexting</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sharenting.html">Sharenting</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ciberbullyng.html">Ciberbullyng</a>
+            </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="slapping.html">HappySlapping</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="grooming.html">Grooming</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- Esto es el carousel -->
+<div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item " data-bs-interval="3000">
+      <img src="multimedia/sexting.jpg" class="d-block w-100 img-fluid">
+      <div class="carousel-caption d-none d-sm-block">
+        <h5>Sexting</h5>
+      </div>
+    </div>
+    <div class="carousel-item active" data-bs-interval="3000">
+      <img src="multimedia/sharenting.jpg" class="d-block w-100 img-fluid">
+      <div class="carousel-caption d-none d-sm-block">
+        <h5>Sharenting</h5>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="multimedia/ciberbullyng.jpg" class="d-block w-100 img-fluid">
+      <div class="carousel-caption d-none d-sm-block">
+        <h5>Ciberbullyng</h5>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="multimedia/slapping.jpg" class="d-block w-100 img-fluid">
+      <div class="carousel-caption d-none d-sm-block">
+        <h5>Happy Slapping</h5>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="multimedia/grooming.jpg" class="d-block w-100 img-fluid">
+      <div class="carousel-caption d-none d-sm-block">
+        <h5>Grooming</h5>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Esto son cartas -->
+<div class="cartas">
+<div class="card" style="width: 30%;">
+  <img src="multimedia/sexting2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Sexting</h5>
+    <p class="card-text">Sexting o sexteo es un término que se refiere al envío de mensajes sexuales, eróticos o pornográficos, por medio de teléfonos móviles.</p>
+    <a href="sexting.html" class="btn btn-primary">Haga click aquí.</a>
+  </div>
+</div>
+<div class="card" style="width: 30%;">
+  <img src="multimedia/sharenting2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Sharenting</h5>
+    <p class="card-text">Sharenting es la práctica de los padres que publican contenido sensible sobre sus hijos en plataformas de Internet. </p>
+    <a href="sharenting.html" class="btn btn-primary">Haga click aquí.</a>
+  </div>
+</div>
+<div class="card" style="width: 30%;">
+  <img src="multimedia/ciberbullyng2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Ciberbullyng</h5>
+    <p class="card-text">El ciberacoso, también denominado acoso virtual, es el uso de medios digitales para molestar o acosar a una persona o grupo de personas mediante ataques personales.</p>
+    <a href="ciberbullyng.html" class="btn btn-primary">Haga click aquí.</a>
+  </div>
+</div>
+</div>
+<div class="cartas">
+  <div class="card" style="width: 30%;">
+    <img src="multimedia/slapping2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Happy Slapping</h5>
+      <p class="card-text">el happy slapping consiste en la grabación de una agresión física, verbal o sexual y su difusión online mediante las tecnologías digitales</p>
+      <a href="slapping.html" class="btn btn-primary">Haga click aquí.</a>
+    </div>
+  </div>
+  <div class="card" style="width: 30%;">
+    <img src="multimedia/grooming2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Grooming</h5>
+      <p class="card-text">El grooming es una forma delictiva de acoso que implica a un adulto que se pone en contacto con un niño, niña o adolescente con el fin de ganarse poco a poco su confianza para luego involucrarle en una actividad sexual.</p>
+      <a href="grooming.html" class="btn btn-primary">Haga click aquí.</a>
+    </div>
+  </div>
+  <div class="card" style="width: 30%;">
+    <img src="multimedia/emergencia.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Emergencia</h5>
+      <li>016: Número de violencia contra as mulleres.</li>
+      <li>116 111: Liña de axuda á infancia.</li>
+      <li>881 997 613: Servizo "Quérote".</li>
+    </div>
+  </div>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
