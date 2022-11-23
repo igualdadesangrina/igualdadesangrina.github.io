@@ -10,6 +10,22 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
   <style>
+    .fakeimg {
+      height: 200px;
+      background: #aaa;
+    }
+    .body {
+      background: #EBDEF0;
+    }
+    .jumbotron{
+      background: #D2B4DE;
+    }
+    .cuerpo{
+      background: #EBDEF0;
+    }
+    br{
+      background: #EBDEF0;
+    }
     /* Make the image fully responsive */
     .carousel-inner img {
       width: 50%;
@@ -21,7 +37,7 @@
 <body>
 
   <div class="jumbotron text-center" style="margin-bottom:0">
-    <h1>Gobierno de España <span class="badge badge-warning">Igualdade</span></h1>
+    <h1>Gobierno de España <span class="badge badge-dark">  Igualdade</span></h1>
     <p>Página oficial de Igualdade del gobierno de España</p>
   </div>
 
@@ -52,18 +68,15 @@
 
       </div>
     </div>
-    <form class="form-inline" action="/action_page.php">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-success" type="submit">Buscar</button>
-    </form>
   </nav>
+<div class="cuerpo">
   <br>
-
+  <br>
   <div class="container">
     <div class="row">
       <div class="col">
         <h2>
-          <div class="spinner-grow text-warning"></div>   Violencia dixital:
+          <div class="spinner-grow text-dark"></div>   Violencia dixital:
         </h2>
         <br>
         <img src="Fotos/photo_2022-11-21_15-00-21_.jpg">
@@ -90,12 +103,15 @@
     <div class="row">
       <div class="col">
         <a href="https://www.igualdad.gob.es/Paginas/index.aspx"
-          class="btn btn-danger stretched-link">Link de la pagina</a>
+          class="btn btn-dark stretched-link">Link de la pagina</a>
       </div>
+      <br>
+      <br>
+      <br>
     </div>
   </div>
   </div>
-
+</div>
   <div class="jumbotron text-center" style="margin-bottom:0">
     <ul class="pagination justify-content-center">
       <li class="page-item"><a class="page-link" href="index.html">Inicio</a></li>
